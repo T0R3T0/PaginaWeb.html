@@ -43,7 +43,10 @@ h1 {
   gap: 1rem;
 }
 
-.icons span {
+
+.icons span,
+.icons a,
+.icons button {
   background-color: #f5eedc;
   color: #6b6832;
   border-radius: 50%;
@@ -53,6 +56,8 @@ h1 {
   display: grid;
   place-items: center;
   font-size: 1.2rem;
+  text-decoration: none;
+  border: none;
 }
 
 main {
